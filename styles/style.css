@@ -79,7 +79,7 @@ ol {
   flex-direction: row;
   gap: 23px;
   align-items: end;
-  
+  margin-bottom: 10px;
 }
 
 .search-form__checkbox-list {
@@ -99,14 +99,14 @@ ol {
  
 }
 
-.search-form__fieldset-title:last-of-type {
+.search-form__fieldset-title-center {
   margin-left: 30px;
 }
 
 .search-form__fieldset {
   border: none;
   appearance: none; 
- /* padding-left: 30px; */
+ 
 }
 
 .search-form__textfield {
@@ -194,6 +194,7 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   padding-bottom: 28px;
+  padding-top: 10px;
 }
 
 .content__accent {
