@@ -136,6 +136,14 @@ input[type="text"]::-moz-placeholder {
   text-decoration: none;
 }
 
+.search-form__textfield {
+  border-top: 1px rgba(255, 255, 255, 0.70) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.70) solid;
+  border-right: none ;
+  border-left: none ;
+  outline: 1px white solid;
+  outline-offset: 1px;
+}
 .search-form__label {
   display: flex;
   flex-direction: row;
@@ -175,6 +183,18 @@ input[type="text"]::-moz-placeholder {
   
  
 }
+
+.search-form__pseudo-checkbox:active {
+  border: 1px white solid;
+  /* width: 19px;
+  height: 19px; */
+  width: 18px;
+  height: 17px;
+  margin-right: 0.5px;
+  margin-left: 0.5px;
+  margin-top: 0.5px;
+ 
+} 
 
 .search-form__pseudo-checkbox {
   border: 1px white solid;
@@ -255,6 +275,10 @@ input[type="text"]::-moz-placeholder {
   color: white;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__video-card-title {
   font-family: 'Oswald';
   font-size: 30px;
@@ -269,6 +293,10 @@ input[type="text"]::-moz-placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: 16.2px; /* 90% */
+}
+
+.content__video-card-description:hover {
+  text-decoration: underline;
 }
 
 .visually-hidden {
@@ -299,6 +327,7 @@ input[type="text"]::-moz-placeholder {
   outline: none;
   outline: 1px solid white;
   border: 1px solid white;
+  outline-offset: 2px;
 }
 
 .button:active {
