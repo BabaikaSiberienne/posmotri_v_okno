@@ -108,7 +108,7 @@ ol {
 }
 
 .search-form__fieldset-title-center {
-  margin-left: 20px;
+  
 }
 
 .search-form__textfield {
@@ -203,6 +203,7 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+  
   padding-top: 10px;
 }
 
@@ -217,6 +218,7 @@ ol {
   overflow-y: auto;
   overflow-x: hidden;
   margin-top: 26px;
+  /* gap: 30px; */
  
   
 }
